@@ -1,0 +1,45 @@
+{% extends 'computer/base.html' %}s
+{% block body %}
+<div class="col-lg-3 col-md-4 col-sm-6">
+   <div class="thumbnail">
+      <img src="{{computer.computer_image}}" class="img-responsive"/>
+      <div claass="caption">
+        <h3>Name: {{computer.name}}</h3>
+        <p>Brand: {{computer.brand}}</p>
+        <p></p>
+      </div>
+   </div>
+</div>
+
+<div class="col-lg-9 col-md-4 col-sm-6" >
+   <div class="">
+     <h3><b>{{computer.name}}</b></h3>
+     <p><b>Brand:</b>{{computer.brand}}</p>
+     <p><b>Price:</b>{{computer.price}}</p>
+     <p><b>Speed:</b>{{computer.speed}}</p>
+
+     <a href = "#" class = "btn btn-danger" role = "botton">
+         Read More <span class="glyphicon glyphicon-blackboard"></span>
+     </a>
+   </div>
+</div>
+{% endblock %}
+<!--
+
+<div class="col-lg-9 col-md-4 col-sm-6 " >
+      <div class="" >
+
+
+
+          <h3><b>{‌{book.name}}</b></h3>
+          <p><b>Author:</b> {‌{book.author}}</p>
+           <p><b>Price:</b> {‌{book.price}}$</p>
+           <p><b>Category:</b> {‌{book.type}}</p>
+
+            <a href = "#" class = "btn btn-danger" role = "button">
+                 Read Sample <span class="glyphicon glyphicon-book"></span>
+              </a>
+
+
+      </div>
+</div>-->

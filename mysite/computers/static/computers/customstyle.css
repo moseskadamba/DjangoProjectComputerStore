@@ -1,0 +1,16 @@
+body {
+  //background: white url("images/red.jpg");
+}
+.jumbotron{
+    background: white url("images/pattern8.jpg");
+
+.jumbotron h1{
+   color:white;
+}
+}
+.jumbotron-special{
+   background: yellow url("images/pattern6.jpg");
+}
+.jumbotron-special h2{
+  color:white;
+}
