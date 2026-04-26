@@ -1,8 +1,7 @@
-
-from django.conf.urls import url, include
+from django.urls import path, include  # 'path' replaces 'url'
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^computers/', include('computers.urls')),
+    path('admin/', admin.site.urls),
+    path('', include('computers.urls')),
 ]
